@@ -43,7 +43,7 @@ public struct StagedChangeset<Collection: Swift.Collection> {
     }
 }
 
-extension StagedChangeset: RandomAccessCollection, RangeReplaceableCollection, MutableCollection {
+extension StagedChangeset: RandomAccessCollection, RangeReplaceableCollection {
     @inlinable
     public init() {
         self.init([])
